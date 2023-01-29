@@ -1,5 +1,5 @@
 import './globals.css'
-import {Header} from "@/components/Header";
+import {Header} from "@/app/components/Header";
 
 export default function RootLayout({
                                        children,
@@ -8,14 +8,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
         <head/>
         <body>
         <Header/>
-        <main className={"bg-black text-gray-100 h-main"}>
+        <main className={"bg-zinc-900 text-zinc-100 min-h-main"}>
             <div className={"container mx-auto"}>
                 {children}
             </div>

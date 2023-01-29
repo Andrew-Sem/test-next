@@ -7,8 +7,8 @@
     height: 75px;
 }
 
-.h-main{
-    height: calc(100vh - 75px);
+.min-h-main{
+    min-height: calc(100vh - 75px);
 }
 
 .text-gradient{

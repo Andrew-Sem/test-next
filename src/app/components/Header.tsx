@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 
 export const Header: FC = () => {
     return (
-        <header className={"bg-black flex items-center border-b border-gray-500/50 sticky top-0 h-header"}>
+        <header className={"bg-zinc-900 flex items-center border-b border-gray-500/50 sticky top-0 h-header"}>
             <div className={"container mx-auto flex justify-between"}>
                 <div className={"text-2xl text-white"}>
                     Header
