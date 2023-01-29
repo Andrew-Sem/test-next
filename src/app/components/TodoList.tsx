@@ -9,7 +9,7 @@ interface TodoListProps{
 export const TodoList: FC<TodoListProps> = ({todos}) => {
     return (
         <div>
-            {todos.map(todo => <Todo todo={todo}/>)}
+            {todos.map(todo => <Todo todo={todo} key={todo.id}/>)}
         </div>
     );
 }
